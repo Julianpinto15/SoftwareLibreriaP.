@@ -191,15 +191,6 @@ julianpinto15-ventas/
 | 🏢 **Empresa** | Configuración y branding | ✅ |
 | 🔐 **Seguridad** | Autenticación y permisos | ✅ |
 
-## 🤝 Contribuir al Proyecto
-
-¡Las contribuciones son bienvenidas! Sigue estos pasos:
-
-1. **🍴 Fork** del proyecto
-2. **🌿 Crear rama** (`git checkout -b feature/nueva-funcionalidad`)
-3. **💻 Commit** cambios (`git commit -m 'Agregar nueva funcionalidad'`)
-4. **📤 Push** a la rama (`git push origin feature/nueva-funcionalidad`)
-5. **🔀 Pull Request** para revisión
 
 ## 📞 Soporte y Comunidad
 
@@ -222,19 +213,20 @@ julianpinto15-ventas/
 
 Este proyecto está bajo la **Licencia MIT** - ver [LICENSE](LICENSE) para más detalles.
 
-## 🌟 Agradecimientos
-
-- **Comunidad PHP** por su apoyo constante
-- **Contribuidores** que han mejorado el sistema
-- **Beta testers** por sus valiosos feedback
-
 ## 👨‍💻 Desarrollador
 
 **Julián Pinto** - Desarrollador Full Stack
-- 🌐 **GitHub:** [@julianpinto15](https://github.com/julianpinto15)
-- 💼 **LinkedIn:** [Julián Pinto](https://linkedin.com/in/julianpinto15)
-- 📧 **Email:** julian.pinto.dev@gmail.com
+- 🌐 **GitHub:** [@julianpinto15]([https://github.com/julianpinto15](https://github.com/Julianpinto15))
+- 💼 **LinkedIn:** [Julián Pinto](www.linkedin.com/in/julian-pinto15)
+- 📧 **Email:** julianpinto700@gmail.com
 
+---
+
+*Santiago Barbosa * - Desarrollador Full Stack
+- 🌐 GitHub: [@BARBOSA191919](https://github.com/BARBOSA191919)
+- 💼 LinkedIn: [Santiago Barbosa](https://www.linkedin.com/in/santiago-barbosa-903641209/)
+- 📧 Email: sbarbosarivas@gmail.com
+  
 ---
 
 <div align="center">
@@ -243,8 +235,7 @@ Este proyecto está bajo la **Licencia MIT** - ver [LICENSE](LICENSE) para más 
 
 Si este sistema te ha sido útil, ¡considera darle una ⭐ en GitHub!
 
-**[⭐ Star en GitHub](https://github.com/julianpinto15/sistema-ventas-php)** | **[🔄 Fork](https://github.com/julianpinto15/sistema-ventas-php/fork)** | **[📥 Descargar](https://github.com/julianpinto15/sistema-ventas-php/archive/main.zip)**
-
+**[⭐ Star en GitHub]([https://github.com/julianpinto15/sistema-ventas-php](https://github.com/Julianpinto15/SoftwareLibreriaP.))** 
 </div>
 
 ---
