@@ -192,14 +192,6 @@ julianpinto15-ventas/
 | 🔐 **Seguridad** | Autenticación y permisos | ✅ |
 
 
-## 📞 Soporte y Comunidad
-
-### 🆘 **¿Necesitas ayuda?**
-- 📧 **Email:** soporte@sistema-ventas.com
-- 💬 **Discord:** [Unirse al servidor](https://discord.gg/ventas-php)
-- 🐛 **Reportar bugs:** [Issues en GitHub](https://github.com/julianpinto15/sistema-ventas-php/issues)
-- 📚 **Documentación:** [Wiki completa](https://github.com/julianpinto15/sistema-ventas-php/wiki)
-
 ## 🎉 Próximas Características
 
 ### 🔮 **Roadmap 2024**
@@ -216,7 +208,7 @@ Este proyecto está bajo la **Licencia MIT** - ver [LICENSE](LICENSE) para más 
 ## 👨‍💻 Desarrollador
 
 **Julián Pinto** - Desarrollador Full Stack
-- 🌐 **GitHub:** [@julianpinto15]([https://github.com/julianpinto15](https://github.com/Julianpinto15))
+- 🌐 **GitHub:** [@julianpinto15](https://github.com/Julianpinto15)
 - 💼 **LinkedIn:** [Julián Pinto](www.linkedin.com/in/julian-pinto15)
 - 📧 **Email:** julianpinto700@gmail.com
 
