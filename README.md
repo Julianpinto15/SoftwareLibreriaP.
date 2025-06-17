@@ -209,7 +209,7 @@ Este proyecto está bajo la **Licencia MIT** - ver [LICENSE](LICENSE) para más 
 
 **Julián Pinto** - Desarrollador Full Stack
 - 🌐 **GitHub:** [@julianpinto15](https://github.com/Julianpinto15)
-- 💼 **LinkedIn:** [Julián Pinto](www.linkedin.com/in/julian-pinto15)
+- 💼 **LinkedIn:** [Julián Pinto](https://www.linkedin.com/in/julian-pinto15/)
 - 📧 **Email:** julianpinto700@gmail.com
 
 ---
