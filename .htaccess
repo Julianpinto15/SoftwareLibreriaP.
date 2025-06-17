@@ -1,0 +1,19 @@
+﻿RewriteEngine On
+Options All -Indexes
+
+# Asegurarse de que no se aplica la regla a archivos o directorios existentes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Regla para redirigir todo a index.php con el parámetro views
+RewriteRule ^([a-zA-Z0-9/ñÑ-]+)$ index.php?views=$1 [QSA,L]
+
+# Prevenir caché durante desarrollo
+<IfModule mod_expires.c>
+    ExpiresActive Off
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+</IfModule>

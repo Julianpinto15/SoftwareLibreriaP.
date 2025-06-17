@@ -1,0 +1,110 @@
+:root {
+  --primario: #6834a6;
+  --blanco: #fff;
+  --negro: #000000;
+  --naranja: #f22802;
+  --amarilloMostaza: ##ec7b01;
+  --amarillo: #faca06;
+  --fuentePrincipal: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*eSTILOS DE LA TABLA*/
+
+.table thead th.text-th {
+  font-size: 20px;
+  text-align: center;
+  color: var(--blanco);
+}
+
+.tr-main td.text-td {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.tr-main button.text-td {
+  font-size: 13px;
+}
+
+@media (min-width: 1440px) {
+  .tr-main td.text-td {
+    font-size: 18px;
+  }
+
+  .tr-main button.text-td {
+    font-size: 15px;
+  }
+}
+
+.tr-main button.text-td.text-icono {
+  padding-right: 3px;
+}
+
+.btn-registrar {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.position-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-titulo {
+  font-family: var(--fuentePrincipal);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.sale-details {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 4px;
+}
+
+.sale-details .fw-bold {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.sale-details .text-primary {
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 5px;
+}
+
+.sale-title {
+  font-size: 1.8rem;
+  margin-bottom: 13px;
+  color: #333;
+  font-weight: 600;
+}
+
+.sale-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.estilo-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.boton {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #1a5f7a;
+  --secondary-color: #159895;
+  --background-gradient: linear-gradient(135deg, #f6f6f6 0%, #e8f5e9 100%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--background-gradient);
+  color: #2c3e50;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+  color: var(--primary-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
+  padding: 50px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 30px auto;
+  transition: all 0.3s ease;
+}
+
+.form-header h1 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.form-header h2 {
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.file-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.btn-primary,
+.btn-danger {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  transform: translateY(-2px);
+}

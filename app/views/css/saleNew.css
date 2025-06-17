@@ -1,0 +1,162 @@
+:root {
+  --primario: #6834a6;
+  --blanco: #fff;
+  --negro: #000000;
+  --naranja: #f22802;
+  --azul: #0d6efd;
+  --amarilloMostaza: ##ec7b01;
+  --amarillo: #faca06;
+  --fuentePrincipal: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.table thead th.text-th {
+  font-size: 18px;
+  text-align: center;
+  color: var(--blanco);
+  vertical-align: middle;
+}
+
+td.text-td {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  align-items: center; /* Centra los botones verticalmente */
+  gap: 5px; /* Espaciado entre los botones */
+}
+
+button.text-td {
+  font-size: 15px;
+}
+
+@media (min-width: 1440px) {
+  td.text-td {
+    font-size: 18px;
+  }
+
+  button.text-td {
+    font-size: 15px;
+  }
+}
+
+button.text-td.text-icono {
+  padding-right: 3px;
+}
+
+.position-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-titulo {
+  font-family: var(--fuentePrincipal);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.btn-tamaño {
+  font-size: 11px;
+}
+
+/* Clases personalizadas para el formulario */
+.barcode-form-custom {
+  background-color: var(--blanco);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(104, 52, 166, 0.15);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(104, 52, 166, 0.1);
+}
+
+.search-btn-custom {
+  font-family: var(--fuentePrincipal);
+  border: 2px solid var(--azul);
+  color: var(--azul);
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.search-btn-custom:hover {
+  background-color: var(--azul);
+  color: var(--blanco);
+}
+
+.barcode-group-custom {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.barcode-input-custom {
+  border: 2px solid #e0e0e0;
+  border-right: none;
+  height: 45px;
+  font-size: 14px;
+  font-family: var(--fuentePrincipal);
+  border-radius: 6px 0 0 6px;
+  padding-left: 15px;
+}
+
+.barcode-input-custom:focus {
+  box-shadow: none;
+  border-color: var(--azul);
+}
+
+.add-btn-custom {
+  background-color: var(--azul);
+  border-color: var(--azul);
+  color: var(--blanco);
+  font-weight: 600;
+  font-family: var(--fuentePrincipal);
+  height: 45px;
+  font-size: 14px;
+  border-radius: 0 6px 6px 0;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+}
+
+.add-btn-custom:hover {
+  background-color: var(--azul);
+  border-color: var(--azul);
+  color: var(--blanco);
+}
+
+.estilo-label {
+  font-size: 1.5rem;
+}
+
+.estilo-input {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1440px) {
+  .estilo-label {
+    font-size: 1.8rem;
+  }
+
+  .estilo-input {
+    font-size: 2rem;
+  }
+
+  .div-position {
+    padding-bottom: 0.8rem;
+  }
+}

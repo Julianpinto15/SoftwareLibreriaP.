@@ -1,0 +1,24 @@
+# Ignorar archivos específicos en app/ajax/
+app/ajax/autorAjax.php
+app/ajax/subcategoriaAjax.php
+app/ajax/clienteAjax.php
+
+# Ignorar archivos específicos en app/controllers/
+app/controllers/autorController.php
+app/controllers/subcategoriaController.php
+app/controllers/clientController.php
+
+# Ignorar archivos específicos en app/views/content/
+app/views/content/autor-view.php
+app/views/content/subcategoria-view.php
+app/views/content/clientList-view.php
+
+# Ignorar archivo específico en app/models/
+app/models/viewsModel.php
+
+# Ignorar archivos específicos en app/pdf/
+app/pdf/report-sales.php
+app/pdf/ticket.php
+
+# Ignorar archivo específico en app/views/js/
+app/views/js/main.js

@@ -1,0 +1,122 @@
+:root {
+  --primario: #6834a6;
+  --blanco: #fff;
+  --blancoOscuro: #e6e6e6;
+  --negro: #000000;
+  --naranja: #f22802;
+  --amarilloMostaza: ##ec7b01;
+  --amarillo: #faca06;
+  --fuentePrincipal: "Poppins", sans-serif;
+  --vinotintoFondo: #4a1d1f;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding: 2rem;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  bottom: 2.5rem;
+  height: 100%;
+  width: 1rem;
+  background-color: var(--vinotintoFondo); /* Vinotinto color */
+  border-radius: 20%;
+}
+
+.card-yellow::before {
+  background-color: var(--amarillo); /* Primario color */
+}
+
+.card-orange::before {
+  background-color: var(--naranja); /* Primario color */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  position: relative;
+  top: 5px;
+}
+
+.card-enlace {
+  text-decoration: none;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin-right: 1rem;
+  background-color: rgba(114, 47, 55, 0.1); /* Vinotinto with opacity */
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.card-subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-footer {
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+}
+
+.btn-details {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  color: #722f37;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-details:hover {
+  background-color: #722f37;
+  color: white;
+  border-color: #722f37;
+}
+
+.profile-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 3rem;
+}
+
+.profile-image {
+  border: 4px solid #722f37;
+  padding: 4px;
+}

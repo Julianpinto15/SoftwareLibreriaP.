@@ -1,0 +1,86 @@
+.body {
+  background-image: url("../img/fondolibro.jpg");
+  background-size: cover; /* La imagen de fondo cubre toda la pantalla */
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.contenido-principal {
+  width: 70%;
+}
+
+.label-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Estilos para la tarjeta de login */
+.login-card {
+  background: rgba(255, 255, 255, 0.7); /* Transparencia en la tarjeta */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px); /* Difuminado de fondo */
+}
+
+.card-header {
+  background: #b30810; /* Vinotinto */
+  color: white;
+  border-radius: 20px 20px 0 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card-header h3 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.btn-primaryInicio {
+  background: linear-gradient(90deg, #ec7b01, #f22802); /* Naranja suave */
+  border: none;
+  color: #fff;
+  border-radius: 50px; /* Borde más redondeado */
+  padding: 12px 30px; /* Botón más compacto */
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primaryInicio:hover {
+  background: linear-gradient(90deg, #f22802, #ec7b01);
+  transform: scale(1.05);
+}
+
+a.text-decoration-none {
+  color: #ec7b01; /* Amarillo mostaza */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a.text-decoration-none:hover {
+  color: #f22802; /* Naranja */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-input {
+  font-size: 2rem;
+}
+
+.btn-inicio {
+  width: 78%;
+  font-size: 1.6rem;
+  margin-left: 3rem;
+}

@@ -1,0 +1,168 @@
+:root {
+  --primario: #6834a6;
+  --blanco: #fff;
+  --negro: #000000;
+  --naranja: #f22802;
+  --amarilloMostaza: ##ec7b01;
+  --amarillo: #faca06;
+  --fuentePrincipal: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*eSTILOS DE LA TABLA*/
+
+.table thead th.text-th {
+  font-size: 20px;
+  text-align: center;
+  color: var(--blanco);
+}
+
+.tr-main td.text-td {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.tr-main button.text-td {
+  font-size: 13px;
+}
+
+@media (min-width: 1440px) {
+  .tr-main td.text-td {
+    font-size: 18px;
+  }
+
+  .tr-main button.text-td {
+    font-size: 15px;
+  }
+}
+
+.tr-main button.text-td.text-icono {
+  padding-right: 3px;
+}
+
+.btn-registrar {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.position-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-titulo {
+  font-family: var(--fuentePrincipal);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Clases personalizadas para alineación de botones */
+.botones-accion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.boton-accion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+}
+
+.form-accion {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.icono-centrado {
+  margin: 0;
+  font-size: 13px;
+}
+
+.icono-color {
+  color: var(--blanco);
+}
+
+@media (min-width: 1440px) {
+  .boton-accion {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+/*Estilos para el filtro */
+
+.filtro-grupo {
+  margin-bottom: 15px;
+}
+
+.filtro-input-contenedor {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.filtro-input-contenedor .input-group-text {
+  background-color: #0d6efd;
+  color: var(--blanco);
+  border: none;
+  border-radius: 8px 0 0 8px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.filtro-input {
+  border-radius: 0 8px 8px 0 !important;
+  border: 1px solid #ced4da;
+  padding: 6px 15px;
+  font-family: var(--fuentePrincipal);
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.filtro-input:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(104, 52, 166, 0.25);
+  outline: none;
+}
+
+.filtro-btn {
+  background-color: #0d6efd;
+  color: var(--blanco);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-family: var(--fuentePrincipal);
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filtro-btn:hover {
+  background-color: #5a2c91;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .filtros .row {
+    display: flex;
+    align-items: flex-end;
+  }
+}
