@@ -257,14 +257,14 @@ Este proyecto está bajo la Licencia MIT - ver [LICENSE](LICENSE) para más deta
 
 ## 👨‍💻 Desarrollador
 
-Julián Pinto - Desarrollador Full Stack
+Julián Pinto - Software Developer
 - 🌐 GitHub: [@julianpinto15](https://github.com/Julianpinto15)
 - 💼 LinkedIn: [Julián Pinto](https://www.linkedin.com/in/julian-pinto15/)
 - 📧 Email: julianpinto700@gmail.com
 
 ---
 
-*Santiago Barbosa * - Desarrollador Full Stack
+*Santiago Barbosa * - Software Developer
 - 🌐 GitHub: [@BARBOSA191919](https://github.com/BARBOSA191919)
 - 💼 LinkedIn: [Santiago Barbosa](https://www.linkedin.com/in/santiago-barbosa-903641209/)
 - 📧 Email: sbarbosarivas@gmail.com
