@@ -244,7 +244,7 @@
 
 ## 🎉 Próximas Características
 
-### 🔮 Roadmap 2024
+### 🔮 Roadmap 2025
 - [ ] 📱 API REST para integración móvil
 - [ ] 🌐 Multi-idioma (Español, Inglés)
 - [ ] 💳 Pagos online (PayPal, Stripe)
